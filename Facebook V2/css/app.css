@@ -1,0 +1,117 @@
+@import url("couleur.css");
+
+body {
+    background-color: #cfcfc9cb;
+    padding: 0px;
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    flex-direction: row;
+    display: flex;
+    padding: 6px;
+}
+
+.header-colone-1 {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    gap: 10px;
+
+}
+
+#input-recheche-facebook {
+    border-radius: 20px;
+    border: 0;
+    padding: 12px;
+
+}
+
+.header-colone-2 {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-colone-2-logo {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0px;
+    margin: 0px 6px;
+}
+
+.header-colone-2-logo:hover {
+    background-color: #F1F2F6;
+    border-radius: 10px;
+
+}
+
+.header-colone-3 {
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.header-colone-3-logo {
+
+    margin: 6px;
+    padding: 16px 6px;
+    border-radius: 90%;
+}
+
+
+
+.header-colone-3-logo:hover {
+    background-color: #7d7d7d30;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.section-colone-1 {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-colone-1-logo {
+    display: flex;
+    flex-direction: row;
+    padding: 24px 10px;
+}
+
+
+.section-colone-1-logo:hover {
+    background-color: #7d7d7d30;
+    border-radius: 10px;
+}
+
+.section-colone-2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section-colone-3 {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}

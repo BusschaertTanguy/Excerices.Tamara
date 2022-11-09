@@ -1,0 +1,63 @@
+.image {
+    width: 30px;
+    height: 30px;
+}
+
+.image-1 {
+    width: 40px;
+    height: 40px;
+}
+
+.image-2 {
+    width: 20px;
+    height: 20px;
+}
+
+.image-3 {
+
+    width: 30px;
+    height: 30px;
+    border-radius: 90px;
+    margin-right: 12px;
+}
+
+.image-4 {
+    width: 140px;
+    height: 180px;
+
+    border-radius: 8px;
+
+}
+
+.image-4:hover {
+    transform: scale(1.1)
+}
+
+.bgc-grey {
+    background-color: #F0F2F5;
+}
+
+.image-pub-1 {
+
+    width: 115px;
+    height: 75px;
+    margin-right: 12px;
+    border-radius: 10px;
+}
+
+.image-pub-2 {
+    width: 115px;
+    height: 115px;
+    margin-right: 12px;
+    border-radius: 10px;
+}
+
+.couleur-1 {
+    color: #232323a0;
+    font-weight: bold;
+
+}
+
+.bgc-white {
+    background-color: white;
+}
